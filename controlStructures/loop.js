@@ -50,11 +50,11 @@ while (i < 5){
 const classDetails = [
 // Each object represents a student
 
-    { name: 'John Doe', course: 'FrontEnd', age: 20, gender: 'Male' },
-    { name: 'Jane Smith', course: 'Backend', age: 22, gender: 'Female' },
-    { name: 'Bob Johnson', course: 'Web design', age: 21, gender: 'Male' },
-    { name: 'Alice Williams', course: 'UI/UX Design', age: 20, gender: 'Female' },
-    { name: 'Mike Davis', course: 'Freelancing', age: 23, gender: 'Male' }
+    { name: 'John Doe', course: 'FrontEnd', age: 20, country: 'Australia', Phone: '+61 345768909', gender: 'Male' },
+    { name: 'Jane Smith', course: 'Backend', age: 22, country: 'UK', phone: +'44 1234567890', gender: 'Female' },
+    { name: 'Bob Johnson', course: 'Web design', age: 21, country: 'Canada', phone: '+1 123-456-7890', gender: 'Male' },
+    { name: 'Alice Williams', course: 'UI/UX Design', age: 20, country: 'Germany', phone: '+49 123-456-7890', gender: 'Female' },
+    { name: 'Mike Davis', course: 'Freelancing', age: 23, country: 'USA', phone : '+1 657493356', gender: 'Male' }
   ];
   
   // Loop through each student in the array
@@ -62,6 +62,7 @@ const classDetails = [
   for (let i = 0; i < classDetails.length; i++) {
     // Log student details to the console
 
-    console.log(`Name: ${classDetails[i].name}, Course: ${classDetails[i].course}, Age: ${classDetails[i].age}, Gender: ${classDetails[i].gender}`);
+    console.log(`Name: ${classDetails[i].name}, Course: ${classDetails[i].course}, Age: ${classDetails[i].age}, Gender: ${classDetails[i].gender}, Country: ${classDetails[i].country} 
+    Phone: ${classDetails[i].phone}`);
   }
   
